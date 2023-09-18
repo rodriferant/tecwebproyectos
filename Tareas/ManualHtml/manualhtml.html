@@ -5,67 +5,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo de tabla HTML</title>
+    <link rel="stylesheet" href="cssmanual/estilomanual.css">
 </head>
 
-<body>
+<body style="background-color: white; color: black;">
 
-
-    <header style="text-align: center;">
+    <header >
         <h1>
             Tecnologias Web
         </h1>
-        <nav style="text-align: left;">
+        <nav>
             <ul>
-                <li><a href="/index.html" target="_self">Inicio</a></li> <!--Self nueva pestania-->
-                <li><a href="/Tareas/ManualHtml/manualhtml.html" target="_self">Manual Html</a></li>
-                <!--Self nueva pestania-->
+                <li><a style="color: black; text-decoration: none; " href="/index.html" target="_self">INICIO</a></li> <!--Self nueva pestania-->
+                <li><a style="color: black; text-decoration: none;" href="/Tareas/ManualHtml/manualhtml.html" target="_self">MANUAL HTML</a></li> <!--Self nueva pestania-->
             </ul>
         </nav>
     </header>
 
 
-    <main>
+    <main style="background-color: white;;">
+        <div>
 
-        <table border="1"> <!-- Utilizamos el atributo border para agregar bordes a la tabla (opcional) -->
-            <caption style="background-color: black; color: white;">Manual HTML</caption>
-            <thead>
-                <tr>
-                    <th>Elemento </th> <!-- Encabezado de la primera columna -->
-                    <th>Descripcion</th> <!-- Encabezado de la segunda columna -->
-                    <th>Ejemplo</th> <!-- Encabezado de la tercera columna -->
-                    <th>link</th> <!-- Encabezado de la tercera columna -->
-                </tr>
+            <table border="1" style=" width: 100%"> <!-- Utilizamos el atributo border para agregar bordes a la tabla (opcional) -->
+                <caption style="background-color: black; color: white;">Manual HTML</caption>
+                <thead>
+                    <tr>
+                        <th>Elemento </th> <!-- Encabezado de la primera columna -->
+                        <th>Descripcion</th> <!-- Encabezado de la segunda columna -->
+                        <th>Ejemplo</th> <!-- Encabezado de la tercera columna -->
+                        <th>link</th> <!-- Encabezado de la tercera columna -->
+                    </tr>
 
-            </thead>
-            <tbody>
-                <tr>
-                    <td>html</td> <!-- Celda de la primera columna -->
-                    <td>El elemento html representa la raíz de un documento HTML.</td>
-                    <!-- Celda de la segunda columna -->
-                    <td> <!-- Celda de la tercera columna -->
-                        <code>
-                            &lt;html lang="es"&gt;
-                        </code>
-                    </td>
-                    <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element#contenido_incrustado:~:text=El%20elemento%20HTML%20%3Chtml%3E%20(o%20elemento%20HTML%20raiz)%20representa%20la%20raiz%20de%20un%20documento%20HTML.%20El%20resto%20de%20elementos%20descienden%20de%20este%20elemento."
-                            target="_blank">Referencia</a></td>
-                    <!-- Celda de la cuarta columna -->
-                </tr>
-                <tr>
-                    <td>base</td> <!-- Celda de la primera columna -->
-                    <td>Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento</td>
-                    <!-- Celda de la segunda columna -->
-                    <td> <!-- Celda de la tercera columna -->
-                        <code>
-                            &lt;base href="http://www.example.com/page.html"/&gt;
-                        </code>
-                    </td>
-                    <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/base#:~:text=El%20elemento%20HTML%20%3Cbase%3E%20especifica%20la%20direcci%C3%B3n%20URL%20base%20que%20se%20utilizar%C3%A1%20para%20todas%20las%20direcciones%20URL%20relativas%20contenidas%20dentro%20de%20un%20documento.%20S%C3%B3lo%20puede%20haber%20un%20elemento%20%3Cbase%3E%20en%20un%20documento."
-                            target="_blank">Referencia</a></td>
-                    <!-- Celda de la cuarta columna -->
-                </tr>
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>html</td> <!-- Celda de la primera columna -->
+                        <td>El elemento html representa la raíz de un documento HTML.</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                                &lt;html lang="es"&gt;
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element#contenido_incrustado:~:text=El%20elemento%20HTML%20%3Chtml%3E%20(o%20elemento%20HTML%20raiz)%20representa%20la%20raiz%20de%20un%20documento%20HTML.%20El%20resto%20de%20elementos%20descienden%20de%20este%20elemento."
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr>
+                        <td>base</td> <!-- Celda de la primera columna -->
+                        <td>Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas
+                            contenidas dentro de un documento</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                                &lt;base href="http://www.example.com/page.html"/&gt;
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/base#:~:text=El%20elemento%20HTML%20%3Cbase%3E%20especifica%20la%20direcci%C3%B3n%20URL%20base%20que%20se%20utilizar%C3%A1%20para%20todas%20las%20direcciones%20URL%20relativas%20contenidas%20dentro%20de%20un%20documento.%20S%C3%B3lo%20puede%20haber%20un%20elemento%20%3Cbase%3E%20en%20un%20documento."
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr>
+                        <td>head</td> <!-- Celda de la primera columna -->
+                        <td>Provee información general (metadatos) acerca del documento, incluyendo su título y enlaces
+                            a scripts y hojas de estilos.</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                                &lt;head&gt;<br>
+                                &nbsp;&nbsp;&lt;title&gt; Document title &lt;/title&gt;<br>
+                                &lt;/head&gt;
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/head"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </tbody>
+            </table>
+        </div>
 
     </main>
 

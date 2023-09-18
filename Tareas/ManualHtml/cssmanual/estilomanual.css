@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+nav{
+    text-align: left;
+}
+ul{
+    background-color: white;
+}
+ul.li{
+    color: red;
+}
+ul.li.a{
+    color: yellow;
+}
+main{
+    background-color: yellow;
+}
+
+

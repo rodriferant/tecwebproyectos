@@ -1,0 +1,45 @@
+p{
+    color: green;
+}
+.caja{
+    /* background-color: rgba(255,255,0,0.5); */
+    /* background-color: black; */
+    background-color: hsl(120, 20%, 80%);
+    /* verde apagado billante */
+    width: 250px;
+    height: 250px;
+    border: 1px solid red;
+    
+    margin: 10px;
+}
+.contenedor{
+    position: relative;
+}
+h1{
+    position: relative;
+    z-index: 1;
+}
+.principal{
+    background-color: #FFBB5C;
+    /* background-color: black; */
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+.cajita1{
+    height: 40%;
+    background-color: #FFBB5C;
+}
+.cajita2{
+    height: 20%;
+    background-color: #FF9B50;
+}
+.cajita3{
+    height: 20%;
+    background-color: #E25E3E;
+}
+.cajita4{
+    height: 20%;
+    background-color: #C63D2F;
+}
