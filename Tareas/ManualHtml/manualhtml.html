@@ -10,36 +10,36 @@
 
 <body style="background-color: white; color: black;">
 
-    <header >
+    <!-- <header>
         <h1>
             Tecnologias Web
         </h1>
         <nav>
             <ul>
-                <li><a style="color: black; text-decoration: none; " href="/index.html" target="_self">INICIO</a></li> <!--Self nueva pestania-->
-                <li><a style="color: black; text-decoration: none;" href="/Tareas/ManualHtml/manualhtml.html" target="_self">MANUAL HTML</a></li> <!--Self nueva pestania-->
+                <li><a style="color: black; text-decoration: none; " href="/index.html" target="_self">INICIO</a></li>
+                <li><a style="color: black; text-decoration: none;" href="/Tareas/ManualHtml/manualhtml.html"
+                        target="_self">MANUAL HTML</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
 
 
-    <main style="background-color: white;;">
+    <main style="background-color: white;">
         <div>
-
-            <table border="1" style=" width: 100%"> <!-- Utilizamos el atributo border para agregar bordes a la tabla (opcional) -->
+            <table border="1" style=" width: 100%">
+                <!-- Utilizamos el atributo border para agregar bordes a la tabla (opcional) -->
                 <caption style="background-color: black; color: white;">Manual HTML</caption>
                 <thead>
-                    <tr>
-                        <th>Elemento </th> <!-- Encabezado de la primera columna -->
+                    <tr class="encabezado">
+                        <th class="colElemento">Elemento </th> <!-- Encabezado de la primera columna -->
                         <th>Descripcion</th> <!-- Encabezado de la segunda columna -->
                         <th>Ejemplo</th> <!-- Encabezado de la tercera columna -->
-                        <th>link</th> <!-- Encabezado de la tercera columna -->
+                        <th>Link</th> <!-- Encabezado de la tercera columna -->
                     </tr>
-
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>html</td> <!-- Celda de la primera columna -->
+                    <tr><!-- html -->
+                        <td class="colElemento">&lt;html&gt;</td> <!-- Celda de la primera columna -->
                         <td>El elemento html representa la raíz de un documento HTML.</td>
                         <!-- Celda de la segunda columna -->
                         <td> <!-- Celda de la tercera columna -->
@@ -51,8 +51,8 @@
                                 target="_blank">Referencia</a></td>
                         <!-- Celda de la cuarta columna -->
                     </tr>
-                    <tr>
-                        <td>base</td> <!-- Celda de la primera columna -->
+                    <tr><!-- base -->
+                        <td class="colElemento">&lt;base&gt;</td> <!-- Celda de la primera columna -->
                         <td>Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas
                             contenidas dentro de un documento</td>
                         <!-- Celda de la segunda columna -->
@@ -65,8 +65,8 @@
                                 target="_blank">Referencia</a></td>
                         <!-- Celda de la cuarta columna -->
                     </tr>
-                    <tr>
-                        <td>head</td> <!-- Celda de la primera columna -->
+                    <tr><!-- head -->
+                        <td class="colElemento">&lt;head&gt;</td> <!-- Celda de la primera columna -->
                         <td>Provee información general (metadatos) acerca del documento, incluyendo su título y enlaces
                             a scripts y hojas de estilos.</td>
                         <!-- Celda de la segunda columna -->
@@ -81,36 +81,1152 @@
                                 target="_blank">Referencia</a></td>
                         <!-- Celda de la cuarta columna -->
                     </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <tr><!-- div -->
+                        <td class="colElemento">&lt;div&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Sirve para crear secciones o agrupar contenidos en bloque.</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                                &lt;div&gt;<br>
+                                &nbsp;&nbsp;&lt;p&gt; Nombre de Pagina &lt;/p&gt;<br>
+                                &lt;/div&gt;
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/div"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- span -->
+                        <td class="colElemento">&lt;span&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Sirve para aplicar estilo al texto o agrupar elementos en línea.</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                                &lt;span&gt;<br>
+                                &nbsp;&nbsp; HOLA COMO ESTAS <br>
+                                &lt;/span&gt;
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/span"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- header -->
+                        <td class="colElemento">&lt;header&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un grupo de ayudas introductorias o de navegación, como logos, nombre de autor y
+                            otros componentes.</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/header"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- article -->
+                        <td class="colElemento">&lt;article&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Almacena contenido independiente del resto de la página web.</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/article"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- section -->
+                        <td class="colElemento">&lt;section&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa una sección genérica de un documento, ayuda a determinar qué contenido
+                            corresponde a que parte de un esquema.</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/section"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- nav -->
+                        <td class="colElemento">&lt;nav&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa una sección de una página cuyo propósito es proporcionar enlaces de navegación,
+                            ya sea dentro del documento actual o a otros documentos.</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/nav"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- aside -->
+                        <td class="colElemento">&lt;aside&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa una parte de un documento cuyo contenido solo está indirectamente relacionado con
+                            el contenido que lo rodea, usado para publicidad.</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/aside"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- footer -->
+                        <td class="colElemento">&lt;footer&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un pie de página para el contenido de la sección más cercana, puede contener
+                            información de autor o enlaces a documentos relacionados</td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/footer"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- main -->
+                        <td class="colElemento">&lt;main&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Almacena los contenidos dominantes del documento, no se debe tener más de un elemento main.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/main"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- h1-h6 -->
+                        <td class="colElemento">&lt;h1&gt;-&lt;h6&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Ayudan a generar una jerarquía de niveles de encabezado visual, un elemento de encabezado
+                            describe brevemente el tema de la sección que representa.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/Heading_Elements"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- p -->
+                        <td class="colElemento">&lt;p&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Es el apropiado para distribuir el texto en párrafos.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/p"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- br -->
+                        <td class="colElemento">&lt;br&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Produce un salto de línea en el texto. Útil para escribir un poema donde la división de las
+                            líneas es significante. No utilizar para incrementar el espacio entre líneas de texto.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/br"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- hr -->
+                        <td class="colElemento">&lt;hr&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un cambio de tema entre párrafos
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/hr"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- wbr -->
+                        <td class="colElemento">&lt;wbr&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa una posición dentro del texto donde el explorador puede opcionalmente saltar una
+                            línea, aunque sus reglas de salto de línea de otra manera no crearían un salto en esa
+                            posición .
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/wbr"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- sup -->
+                        <td class="colElemento">&lt;sup&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Define un fragmento de texto que se debe mostrar, por razones tipográficas, más alto, y
+                            generalmente más pequeño, que el tramo principal del texto, es decir, en superíndice.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/sup"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- sub -->
+                        <td class="colElemento">&lt;sub&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Define un fragmento de texto que se debe mostrar, por razones tipográficas, más bajo, y
+                            generalmente más pequeño, que el tramo principal del texto, es decir, en subíndice.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/sub"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- strong -->
+                        <td class="colElemento">&lt;strong&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Sirve para marcar con especial énfasis las partes más importantes de un texto.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/strong"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- em -->
+                        <td class="colElemento">&lt;em&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Es el apropiado para marcar con énfasis las partes importantes de un texto.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/em"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- mark -->
+                        <td class="colElemento">&lt;mark&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un texto marcado o resaltado como referencia o anotación, debido a su relevancia
+                            o importancia en un contexto particular.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/mark"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- q -->
+                        <td class="colElemento">&lt;q&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Este elemento está destinado a citas breves que no requieren saltos de párrafo.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/q"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- blockquote -->
+                        <td class="colElemento">&lt;blockquote&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Crea citas en bloque, marca las citas a otros autores o documentos.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- cite -->
+                        <td class="colElemento">&lt;cite&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Marca una referencia a una fuente, o al autor de un texto citado.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/cite"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- dfn -->
+                        <td class="colElemento">&lt;dfn&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Sirve para marcar el término que se quiere definir.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/dfn"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- abbr -->
+                        <td class="colElemento">&lt;abbr&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa una abreviación o acrónimo; el atributo opcional title puede ampliar o describir
+                            la abreviatura.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/abbr"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- small -->
+                        <td class="colElemento">&lt;small&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Hace el tamaño del texto una talla más pequeña que el tamaño mínimo de fuente del navegador.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/small"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- ins -->
+                        <td class="colElemento">&lt;ins&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Marca las partes de un texto que han sido añadidos al documento.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/ins"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- del -->
+                        <td class="colElemento">&lt;del&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Marca las partes de un texto o documento que han sido suprimidas o sustituidas.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/del"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- s -->
+                        <td class="colElemento">&lt;s&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Muestra el texto tachado con una línea horizontal.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/s"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- code -->
+                        <td class="colElemento">&lt;code&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Es el apropiado para marcar el código de un programa.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/code"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- samp -->
+                        <td class="colElemento">&lt;samp&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Se utiliza para incluir texto en línea que representa una muestra de la salida de un
+                            programa de ordenador.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/samp"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- kbd -->
+                        <td class="colElemento">&lt;kbd&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Marca el texto que debe introducir el usuario.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/kbd"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- pre -->
+                        <td class="colElemento">&lt;pre&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa texto preformateado. El texto en este elemento típicamente se muestra en una
+                            fuente fija, no proporcional, exactamente como es mostrado en el archivo
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/pre"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- address -->
+                        <td class="colElemento">&lt;address&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Aporta información de contacto para su &lt;article&gt; más cercano o ancestro &lt;body&gt;;
+                            en el último caso lo aplica a todo el documento.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/address"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- a -->
+                        <td class="colElemento">&lt;a&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma
+                            página, direcciones de correo, o cualquier otra URL.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- audio -->
+                        <td class="colElemento">&lt;audio&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Se usa para insertar contenido de audio en un documento HTML o XHTML.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/audio"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- b -->
+                        <td class="colElemento">&lt;b&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Indica que el texto debe ser representado con una variable bold, o negrita,de la tipografía
+                            que se esté usando.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/b"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- bdo -->
+                        <td class="colElemento">&lt;bdo&gt;</td> <!-- Celda de la primera columna -->
+                        <td>La dirección de escritura del texto está relacionada con el idioma y se declara con el
+                            atributo dir. Pero en ocasiones esto no es suficiente, entonces entra en juego el elemento
+                            bdo, el cual anula el algoritmo permitiendo un control total de la direccionalidad.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/bdo"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- bdi -->
+                        <td class="colElemento">&lt;bdi&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Aísla un trozo de texto para que pueda ser formateado con una dirección diferente al texto
+                            que hay fuera de él.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/bdi"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- canvas -->
+                        <td class="colElemento">&lt;canvas&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Se puede utilizar para dibujar gráficos a través de secuencias de comandos, puede usarse
+                            para dibujar gráficos, hacer composiciones de fotos o incluso realizar animaciones.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/canvas"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- data -->
+                        <td class="colElemento">&lt;data&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Vincula un contenido dado con una traducción legible por una máquina.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/data"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- datalist -->
+                        <td class="colElemento">&lt;datalist&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Contiene un conjunto de elementos &lt;option&gt; que representan los valores disponibles
+                            para otros controles.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/datalist"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- details -->
+                        <td class="colElemento">&lt;details&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Es usado como un widget de revelación a través del cual el usuario puede obtener información
+                            adicional.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/details"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- embed -->
+                        <td class="colElemento">&lt;embed&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un punto de integración para una aplicación externa o de contenido interactivo
+                            (en otras palabras, un plug-in).
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/embed"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- fieldset -->
+                        <td class="colElemento">&lt;fieldset&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Permite organizar en grupos los campos de un formulario.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/fieldset"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- figure -->
+                        <td class="colElemento">&lt;figure&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa contenido independiente, a menudo con un título. Si bien se relaciona con el
+                            flujo principal, su posición es independiente de éste.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/figure"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- form -->
+                        <td class="colElemento">&lt;form&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa una sección de un documento que contiene controles interactivos que permiten a un
+                            usuario enviar información a un servidor web.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/form"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- hgroup -->
+                        <td class="colElemento">&lt;hgroup&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Define un solo título que participa de la estructura del documento como el encabezado de la
+                            sección implícita o explícita a la que pertenece.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/hgroup"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- i -->
+                        <td class="colElemento">&lt;i&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Muestra el texto marcado con un estilo en cursiva o itálica.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/i"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- iframe -->
+                        <td class="colElemento">&lt;iframe&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un contexto de navegación anidado, el cual permite incrustar otra página HTML en
+                            la página actual.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- img -->
+                        <td class="colElemento">&lt;img&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa una imagen en el documento.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/img"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- input -->
+                        <td class="colElemento">&lt;input&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Se usa para crear controles interactivos para formularios basados en la web con el fin de
+                            recibir datos del usuario.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/input"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- label -->
+                        <td class="colElemento">&lt;label&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa una etiqueta para un elemento en una interfaz de usuario.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/label"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- map -->
+                        <td class="colElemento">&lt;map&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Define el mapa de imagen del lado del cliente. El mapa de imagen es una imagen con un área
+                            diferente a la que se puede hacer clic.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://htmldesdecero.es/etiquetas/map" target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- meter -->
+                        <td class="colElemento">&lt;meter&gt;</td> <!-- Celda de la primera columna -->
+                        <td>El elemento representa un valor escalar dentro de un rango conocido o un valor fraccionario.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter#:~:text=The%20%3Cmeter%3E%20HTML%20element"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- nav -->
+                        <td class="colElemento">&lt;nav&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa una sección de una página cuyo propósito es proporcionar enlaces de navegación,
+                            ya sea dentro del documento actual o a otros documentos.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/nav"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- noscript -->
+                        <td class="colElemento">&lt;noscript&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Aporta contenidos alternativos al elemento script. Las aplicaciones de usuario que no
+                            soporten scripts deben mostrar en su lugar el contenido de este elemento.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/noscript"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- object -->
+                        <td class="colElemento">&lt;object&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un recurso externo, que puede ser tratado como una imagen, un contexto de
+                            navegación anidado, o como un recurso que debe ser manejado por un plugin.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/object"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- ol -->
+                        <td class="colElemento">&lt;ol&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Permite definir listas o viñetas ordenadas ("Ordered List"), bien con numeración o
+                            alfabéticamente.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/ol"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- output -->
+                        <td class="colElemento">&lt;output&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Es un elemento contenedor en el que un sitio o aplicación puede inyectar los resultados de
+                            un cálculo o el resultado de una acción del usuario.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- picture -->
+                        <td class="colElemento">&lt;picture&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Contiene cero o más elementos &lt;source&gt; y un elemento &lt;img&gt; para ofrecer
+                            versiones alternativas de una imagen para diferentes escenarios de
+                            visualización/dispositivo.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- ruby -->
+                        <td class="colElemento">&lt;ruby&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa pequeñas anotaciones que se representan encima, debajo o al lado del texto base,
+                            generalmente utilizadas para mostrar la pronunciación de caracteres del este de Asia.
+                            También se puede utilizar para anotar otros tipos de texto, pero este uso es menos común.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- progress -->
+                        <td class="colElemento">&lt;progress&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Muestra un indicador que muestra el progreso de finalización de una tarea, generalmente
+                            mostrado como una barra de progreso.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- s -->
+                        <td class="colElemento">&lt;s&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa el texto tachado o con una línea atravesada. Utilice el elemento &lt;s&gt; para
+                            representar cosas que ya no son relevantes o que ya no son precisas. Sin embargo, &lt;s&gt;
+                            no
+                            es apropiado para indicar ediciones de documentos; para eso, use los elementos &lt;del&gt;
+                            y &lt;ins&gt;, según corresponda.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- script -->
+                        <td class="colElemento">&lt;script&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Se utiliza para incrustar código o datos ejecutables; normalmente se utiliza para incrustar
+                            o hacer referencia a código JavaScript.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- select -->
+                        <td class="colElemento">&lt;select&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un control que proporciona un menú de opciones.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- table -->
+                        <td class="colElemento">&lt;table&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa datos tabulares, es decir, información presentada en una tabla bidimensional
+                            compuesta de filas y columnas de celdas que contienen datos.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- template -->
+                        <td class="colElemento">&lt;template&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Es un mecanismo para contener HTML que no debe representarse inmediatamente cuando se carga
+                            una página, pero que se puede crear una instancia posteriormente durante el tiempo de
+                            ejecución utilizando JavaScript.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- textarea -->
+                        <td class="colElemento">&lt;textarea&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un control de edición de texto sin formato de varias líneas, útil cuando desea
+                            permitir a los usuarios ingresar una cantidad considerable de texto de formato libre, por
+                            ejemplo, un comentario en un formulario de revisión o comentarios.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- time -->
+                        <td class="colElemento">&lt;time&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un período específico en el tiempo. Puede incluir el atributo de fecha y hora
+                            para traducir fechas a un formato legible por máquina, lo que permite mejores resultados en
+                            los motores de búsqueda o funciones personalizadas como recordatorios.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- u -->
+                        <td class="colElemento">&lt;u&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa un tramo de texto en línea que debe representarse de manera que indique que tiene
+                            una anotación no textual. Esto se representa de forma predeterminada como un subrayado
+                            sólido simple, pero se puede modificar usando CSS.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- ul -->
+                        <td class="colElemento">&lt;ul&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa una lista desordenada de elementos, generalmente representada como una lista con
+                            viñetas.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- var -->
+                        <td class="colElemento">&lt;var&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa el nombre de una variable en una expresión matemática o un contexto de
+                            programación. Por lo general, se presenta utilizando una versión en cursiva del tipo de
+                            letra actual, aunque ese comportamiento depende del navegador.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- video -->
+                        <td class="colElemento">&lt;video&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Incorpora un reproductor multimedia que admite la reproducción de vídeo en el documento.
+                            También puedes usar &lt;video&gt; para contenido de audio, pero el elemento &lt;audio&gt;
+                            puede proporcionar una experiencia de usuario más apropiada.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- area -->
+                        <td class="colElemento">&lt;area&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Define un área dentro de un mapa de imagen que tiene áreas predefinidas en las que se puede
+                            hacer clic. Un mapa de imagen permite asociar áreas geométricas de una imagen con enlaces de
+                            hipertexto.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- link -->
+                        <td class="colElemento">&lt;link&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Especifica las relaciones entre el documento actual y un recurso externo.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- meta -->
+                        <td class="colElemento">&lt;meta&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Representa metadatos que no pueden ser representados por otros elementos HTML relacionados
+                            con meta, como &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; o &lt;title&gt;.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- caption -->
+                        <td class="colElemento">&lt;caption&gt;</td> <!-- Celda de la primera columna -->
+                        <td>El elemento especifica el título (o título) de una tabla.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- thead -->
+                        <td class="colElemento">&lt;thead&gt;</td> <!-- Celda de la primera columna -->
+                        <td>El elemento define un conjunto de filas que definen el encabezado de las columnas de la
+                            tabla.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- tbody -->
+                        <td class="colElemento">&lt;tbody&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Encapsula un conjunto de filas de la tabla ( elementos), lo que indica que comprenden el
+                            cuerpo de la tabla.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- tfoot -->
+                        <td class="colElemento">&lt;tfoot&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Define un conjunto de filas que resumen las columnas de la tabla.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- tr -->
+                        <td class="colElemento">&lt;tr&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Define una fila de celdas en una tabla. Luego, las celdas de la fila se pueden establecer
+                            utilizando una combinación de elementos (celda de datos) y (celda de encabezado).
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- th -->
+                        <td class="colElemento">&lt;th&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Define una celda como el encabezado de un grupo de celdas de una tabla.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
+                    <tr><!-- td -->
+                        <td class="colElemento">&lt;td&gt;</td> <!-- Celda de la primera columna -->
+                        <td>Define una celda de una tabla que contiene datos.
+                        </td>
+                        <!-- Celda de la segunda columna -->
+                        <td> <!-- Celda de la tercera columna -->
+                            <code>
+                            </code>
+                        </td>
+                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td"
+                                target="_blank">Referencia</a></td>
+                        <!-- Celda de la cuarta columna -->
+                    </tr>
                 </tbody>
             </table>
         </div>
-
     </main>
-
-
-
 </body>
 
 </html>

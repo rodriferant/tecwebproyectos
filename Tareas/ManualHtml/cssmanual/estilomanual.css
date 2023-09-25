@@ -24,3 +24,20 @@ main{
 }
 
 
+.encabezado{
+    background-color: rgb(255, 255, 255);
+    
+}
+.colElemento{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+td{
+    background-color: darkgray;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
