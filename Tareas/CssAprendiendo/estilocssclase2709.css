@@ -1,0 +1,40 @@
+/* button:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+input:disabled{
+    background-color: orange;
+}
+p::first-line{
+    color: blue;
+}
+.foo,.bar,.faz{
+    color: orange;
+    font-size: 2em;
+    font-weight: bolder;
+
+} */
+
+/* .foo p{
+    color: blue;
+} */
+/* p{
+    color: blue;
+}
+p{
+    color: red;
+} */
+/* p.foo{
+    color: blue;
+} */
+
+
+
+/* rem para textos */
+.caja{
+    width: 50%;
+    height: 250px;
+    background-color: red;
+}
